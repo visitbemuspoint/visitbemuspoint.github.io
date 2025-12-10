@@ -35,6 +35,8 @@ jobs:
         with:
           source: ./docs
           destination: ./_site
+          future: true
+          skip_jekyll: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

@@ -1,2 +1,15 @@
 # GitHub Pages configuration
-# This tells GitHub Pages to serve content from the docs folder
+# Disable Jekyll processing for static HTML files
+skip_jekyll: true
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github
+  - .git
